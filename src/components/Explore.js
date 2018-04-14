@@ -41,7 +41,7 @@ export default class Explore extends Component {
   render() {
     return (
       <div>
-        <p>Type a username or repo full name and hit 'Go':</p>
+        <p>Saisir un nom d'utilisateur ou un repertoire et appuyer sur 'GO':</p>
         <input size="45"
                ref={(input) => this.input = input}
                defaultValue={this.props.value}
